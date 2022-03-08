@@ -8,6 +8,8 @@ copy values from CloudFormation outputs into USERPOOLID and JWKS variables
 */
 
 var USERPOOLID = 'us-east-1_bSofCDt8L';
+//パブリック JSON Web キー (JWK) 
+//この値は https://cognito-idp.{region}.amazonaws.com/{userPoolId}/.well-known/jwks.json からダウンロードする
 var JWKS = '{"keys":[{"alg":"RS256","e":"AQAB","kid":"Uv5vK0XNUVl9S6WCFmiDb4tVdF+pzjNtW5LG69wf2iI=","kty":"RSA","n":"plASaJ4V9edIHSpVVhrk2NbnpBnn9h2-uzUR7jf4fHKIr3S9O8f99MEI8NkcB_xdo92FZWK47_utxagJ6wXmtzXkGu97qtmr9nk9fOu1BtX6rqOPKutb3RXA-om0OKwTkosKZW45rKFl3exDXEnko7DM-DtpIR6wlsIMLMmgzrzXO1iBw9-rmjUqvorPJypYGHS1hxqhRNJuiDC_-NpXDGWgCO2L0oBjiGI-xuDHL3P9fugIPnVcshxK3I3Go9nlUekjTCoUXfaNrO2ugk8JesPvkkNyqQNBHWpjcs7pneUjRDr_HoB-EfhFKMH7G3MynaVf1mYVfCXt7Jxns-PKxQ","use":"sig"},{"alg":"RS256","e":"AQAB","kid":"rxVPuT+WuGHDQGLzEN7kdoRK/b8SQApOsLSc1/OWJDU=","kty":"RSA","n":"6qtzrpj6UrBk-phoiEKEFmky4JDUWL_Y5yB0AJTOt6dSVDtbtJ61MHwiS4BeVcLDo7ZbEoXD1OLS8pSQfYXwB1ZuDP_69HfZjH8ZOQAfBlhj771HEDroA9AnW_fSMVee19RKP9TWStL_4JAK1nUTVRZQbq5GO7iqs97DOYUUED8UxRt4VxtKHF71V7GNpIvl5GzjatSOo3RUzxh_MSA1SRSWnOAbTmFGmt6lsx81A6QPvfMLy-0v2lO7gHd7lB52nmhZRq2_EMlTDQq6wkD6KYVCrgVFMgmLUWbuL1BYzPAId_9TOiXdqKzEbDkscyWTlBTHaHUvQo-bkGAM3jBR-Q","use":"sig"}]}';
 
 /*
